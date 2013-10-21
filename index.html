@@ -20,14 +20,12 @@
 
 body {
 	font-family: 'Quicksand', sans-serif;
-	max-width: 480px;
 }
 
 header {
 	border-bottom: 1px solid gray;
 	background: #5A872A;
 	height: 73px;
-	max-width: 480px;
 }
 
 .header-top {
@@ -62,6 +60,7 @@ header {
 	border-bottom: 1px solid gray;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 .title {
@@ -73,6 +72,18 @@ header {
 	font-style: italic;
 	margin: 0;
 
+}
+
+@media screen and (max-device-width: 480px){
+    body{...}
+    div{
+        clear:both!important;
+        display:block!important;
+        width:100%!important;
+        float:none!important;
+        margin:0!important;
+        padding:0!important;
+    }
 }
 
 </style>
