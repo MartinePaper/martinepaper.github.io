@@ -20,9 +20,11 @@
 
 body {
 	font-family: 'Quicksand', sans-serif;
+	max-width: 480px;
 }
 
 header {
+	border-bottom: 1px solid gray;
 	background: #5A872A;
 	height: 73px;
 }
@@ -31,10 +33,12 @@ header {
 	text-align: center;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	padding: 15px;
 
 }
 
 .header-bottom {
+	margin: 0 auto;
 }
 
 
@@ -43,15 +47,18 @@ header {
 	position: absolute;
 	top: 60px;
 	left: 50%;
+	margin: 0 -30px 0 -30px;
 }
 
 .nav-icon {
 	color: white;
 	font-size: 17px;
-	
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .entry {
+	border-bottom: 1px solid gray;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding-bottom: 10px;
@@ -66,17 +73,6 @@ header {
 	font-style: italic;
 	margin: 0;
 
-}
-
-@media screen and (max-device-width: 480px){
-    body{
-        clear:both!important;
-        display:block!important;
-        width:100%!important;
-        float:none!important;
-        margin:0!important;
-        padding:0!important;
-    }
 }
 
 </style>
